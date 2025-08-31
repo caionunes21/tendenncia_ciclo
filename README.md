@@ -53,7 +53,7 @@ summary(modelo)
 - **Valores Ajustados:** tendência da série temporal
 - **Resíduos:** ciclo da série temporal
 ```r
-# Salvando os Valores Ajustados para TendC*ncia
+# Salvando os Valores Ajustados para Tendência
 valores_ajustados <- modelo |>
   fitted.values()
 
