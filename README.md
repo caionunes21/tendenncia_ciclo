@@ -47,7 +47,7 @@ summary(dados_tend)
 modelo <- lm(pib_ca ~ time + time2, data = dados_tend)
 summary(modelo)
 ```
-(sumário.png)
+(sumario.png)
 
 ### 5. Extraindo o componente de tendência e ciclo
 - **Valores Ajustados:** tendência da série temporal
@@ -91,6 +91,8 @@ ggplot(dados_tend, aes(x = ano)) +
         axis.line.x = element_line(),
         axis.line.y = element_line())
 ```
+[grafico_tend.jpg]
+
 
 Gráfico de Ciclo:
 ```r
@@ -120,3 +122,4 @@ ggplot(dados_tend, aes(x = ano)) +
         axis.line.x = element_line(),
         axis.line.y = element_line())
 ```
+[grafico_tend.jpg]
