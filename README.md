@@ -91,7 +91,7 @@ ggplot(dados_tend, aes(x = ano)) +
         axis.line.x = element_line(),
         axis.line.y = element_line())
 ```
-[grafico_tend.jpg]
+![Gráfico Série Original X Tendência](x.png)
 
 
 Gráfico de Ciclo:
@@ -122,4 +122,4 @@ ggplot(dados_tend, aes(x = ano)) +
         axis.line.x = element_line(),
         axis.line.y = element_line())
 ```
-[grafico_tend.jpg]
+![Gráfico do Ciclo](y.png)
