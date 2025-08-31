@@ -33,7 +33,7 @@ showtext_auto()
 ```
 
 ### 3. Tabela descritiva
-Tabela contendo valor mínimo, valor máximo, média, mediana, 1Q, 3Q e IQ.
+Tabela contendo valor mínimo, valor máximo, média, mediana, 1Q, 3Q e AIQ.
 ```r
 summary(dados_tend)
 ```
